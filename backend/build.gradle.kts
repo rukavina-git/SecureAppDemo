@@ -22,6 +22,9 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("io.github.microutils:kotlin-logging-jvm:2.0.11")
+	implementation("io.grpc:grpc-kotlin-stub:0.9.4")
+	implementation("io.grpc:grpc-protobuf:0.9.4")
+	implementation("com.google.protobuf:protobuf-kotlin:0.9.4")
 	testImplementation("ch.qos.logback:logback-classic:1.2.6")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
