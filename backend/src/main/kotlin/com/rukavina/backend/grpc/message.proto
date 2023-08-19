@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message StringRequest {
+  string request = 1;
+}
+
+message StringResponse {
+  string response = 1;
+}
+
+service StringEditingService {
+  rpc EditString(StringRequest) returns (StringResponse);
+}
